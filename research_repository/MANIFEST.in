@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include research_repository *.css
+recursive-include research_repository *.csv
+recursive-include research_repository *.html
+recursive-include research_repository *.ico
+recursive-include research_repository *.js
+recursive-include research_repository *.json
+recursive-include research_repository *.md
+recursive-include research_repository *.png
+recursive-include research_repository *.py
+recursive-include research_repository *.svg
+recursive-include research_repository *.txt
+recursive-exclude research_repository *.pyc
